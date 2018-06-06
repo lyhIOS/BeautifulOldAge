@@ -14,11 +14,15 @@
 
 #define kScreenBounds [UIScreen mainScreen].bounds
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
-#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height 
 
 // 相对于iPhone 6 的尺寸比例
 #define autoSizeScaleX kScreenWidth/375
 #define autoSizeScaleY kScreenHeight/667
+
+#import <AVFoundation/AVAsset.h>
+#import <AVFoundation/AVMediaFormat.h>
+#import <AVFoundation/AVAssetExportSession.h>
 
 #import "Masonry.h"
 #import "YYModel.h"
@@ -27,6 +31,9 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 
 #import "UIColor+HEX.h"
+#import "LYHNetWorkTool.h"
+#import "UIImage+compression.h"
+
 
 #import "HXTabBarController.h"
 #import "HXNavigationController.h"

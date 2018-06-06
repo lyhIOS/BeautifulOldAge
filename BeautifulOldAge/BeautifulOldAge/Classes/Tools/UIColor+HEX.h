@@ -1,9 +1,9 @@
 //
 //  UIColor+HEX.h
-//  iOS-Categories (https://github.com/shaojiankui/iOS-Categories)
+//  BeautifulOldAge
 //
-//  Created by Jakey on 14/12/15.
-//  Copyright (c) 2014年 www.skyfox.org. All rights reserved.
+//  Created by Mac on 2018/6/6.
+//  Copyright © 2018年 hncoon. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
