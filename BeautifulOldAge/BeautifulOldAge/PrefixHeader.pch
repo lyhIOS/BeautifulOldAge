@@ -26,4 +26,11 @@
 #import "AFNetworking.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 
+#import "HXTabBarController.h"
+#import "HXNavigationController.h"
+#import "HXHotViewController.h"
+#import "HXServiceViewController.h"
+#import "HXMallViewController.h"
+#import "HXPersonalViewController.h"
+
 #endif /* PrefixHeader_pch */

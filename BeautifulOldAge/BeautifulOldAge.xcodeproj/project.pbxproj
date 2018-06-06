@@ -15,6 +15,12 @@
 		041D475620C7C7EB004ED651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D475520C7C7EB004ED651 /* main.m */; };
 		041D476020C7C7EB004ED651 /* BeautifulOldAgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D475F20C7C7EB004ED651 /* BeautifulOldAgeTests.m */; };
 		041D476B20C7C7EB004ED651 /* BeautifulOldAgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D476A20C7C7EB004ED651 /* BeautifulOldAgeUITests.m */; };
+		041D479520C7CF44004ED651 /* HXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D479420C7CF44004ED651 /* HXTabBarController.m */; };
+		041D479820C7CF7C004ED651 /* HXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D479720C7CF7C004ED651 /* HXNavigationController.m */; };
+		041D479B20C7D039004ED651 /* HXHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D479A20C7D039004ED651 /* HXHotViewController.m */; };
+		041D479E20C7D051004ED651 /* HXServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D479D20C7D051004ED651 /* HXServiceViewController.m */; };
+		041D47A120C7D063004ED651 /* HXMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D47A020C7D063004ED651 /* HXMallViewController.m */; };
+		041D47A420C7D076004ED651 /* HXPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D47A320C7D076004ED651 /* HXPersonalViewController.m */; };
 		65ED5D457EFA96795BC7AA92 /* libPods-BeautifulOldAgeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 353CF4F6813801513CD0E86E /* libPods-BeautifulOldAgeUITests.a */; };
 		A2B4AE0E6B04018C7C08113E /* libPods-BeautifulOldAge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8E429F425CC2407492F3C6 /* libPods-BeautifulOldAge.a */; };
 		F35A5A1A937A188141DAF1A0 /* libPods-BeautifulOldAgeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87798321932B909C56CDBCCC /* libPods-BeautifulOldAgeTests.a */; };
@@ -55,6 +61,18 @@
 		041D476A20C7C7EB004ED651 /* BeautifulOldAgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulOldAgeUITests.m; sourceTree = "<group>"; };
 		041D476C20C7C7EB004ED651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041D479220C7CCDC004ED651 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		041D479320C7CF44004ED651 /* HXTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXTabBarController.h; sourceTree = "<group>"; };
+		041D479420C7CF44004ED651 /* HXTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXTabBarController.m; sourceTree = "<group>"; };
+		041D479620C7CF7C004ED651 /* HXNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXNavigationController.h; sourceTree = "<group>"; };
+		041D479720C7CF7C004ED651 /* HXNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXNavigationController.m; sourceTree = "<group>"; };
+		041D479920C7D039004ED651 /* HXHotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXHotViewController.h; sourceTree = "<group>"; };
+		041D479A20C7D039004ED651 /* HXHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXHotViewController.m; sourceTree = "<group>"; };
+		041D479C20C7D051004ED651 /* HXServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXServiceViewController.h; sourceTree = "<group>"; };
+		041D479D20C7D051004ED651 /* HXServiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXServiceViewController.m; sourceTree = "<group>"; };
+		041D479F20C7D063004ED651 /* HXMallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXMallViewController.h; sourceTree = "<group>"; };
+		041D47A020C7D063004ED651 /* HXMallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXMallViewController.m; sourceTree = "<group>"; };
+		041D47A220C7D076004ED651 /* HXPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXPersonalViewController.h; sourceTree = "<group>"; };
+		041D47A320C7D076004ED651 /* HXPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXPersonalViewController.m; sourceTree = "<group>"; };
 		1A8E429F425CC2407492F3C6 /* libPods-BeautifulOldAge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeautifulOldAge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAA7C0C732208F879412F5B /* Pods-BeautifulOldAgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulOldAgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeautifulOldAgeTests/Pods-BeautifulOldAgeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2ABA7D5F4619F3044206D172 /* Pods-BeautifulOldAgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulOldAgeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeautifulOldAgeTests/Pods-BeautifulOldAgeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,13 +173,13 @@
 		041D477820C7CAF2004ED651 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				041D477920C7CAF2004ED651 /* Personal */,
-				041D477D20C7CAF2004ED651 /* Tools */,
+				041D478E20C7CAF2004ED651 /* Main */,
 				041D477E20C7CAF2004ED651 /* NewFeature */,
 				041D478220C7CAF2004ED651 /* Hot */,
-				041D478620C7CAF2004ED651 /* Mall */,
 				041D478A20C7CAF2004ED651 /* Service */,
-				041D478E20C7CAF2004ED651 /* Main */,
+				041D478620C7CAF2004ED651 /* Mall */,
+				041D477920C7CAF2004ED651 /* Personal */,
+				041D477D20C7CAF2004ED651 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -186,6 +204,8 @@
 		041D477B20C7CAF2004ED651 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				041D47A220C7D076004ED651 /* HXPersonalViewController.h */,
+				041D47A320C7D076004ED651 /* HXPersonalViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -255,6 +275,8 @@
 		041D478420C7CAF2004ED651 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				041D479920C7D039004ED651 /* HXHotViewController.h */,
+				041D479A20C7D039004ED651 /* HXHotViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -286,6 +308,8 @@
 		041D478820C7CAF2004ED651 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				041D479F20C7D063004ED651 /* HXMallViewController.h */,
+				041D47A020C7D063004ED651 /* HXMallViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -317,6 +341,8 @@
 		041D478C20C7CAF2004ED651 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				041D479C20C7D051004ED651 /* HXServiceViewController.h */,
+				041D479D20C7D051004ED651 /* HXServiceViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -348,6 +374,10 @@
 		041D479020C7CAF2004ED651 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				041D479320C7CF44004ED651 /* HXTabBarController.h */,
+				041D479420C7CF44004ED651 /* HXTabBarController.m */,
+				041D479620C7CF7C004ED651 /* HXNavigationController.h */,
+				041D479720C7CF7C004ED651 /* HXNavigationController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -453,6 +483,7 @@
 		041D473B20C7C7EA004ED651 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HX;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = hncoon;
 				TargetAttributes = {
@@ -672,9 +703,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041D47A420C7D076004ED651 /* HXPersonalViewController.m in Sources */,
 				041D474B20C7C7EA004ED651 /* ViewController.m in Sources */,
+				041D479E20C7D051004ED651 /* HXServiceViewController.m in Sources */,
 				041D475620C7C7EB004ED651 /* main.m in Sources */,
+				041D479B20C7D039004ED651 /* HXHotViewController.m in Sources */,
 				041D474820C7C7EA004ED651 /* AppDelegate.m in Sources */,
+				041D479520C7CF44004ED651 /* HXTabBarController.m in Sources */,
+				041D47A120C7D063004ED651 /* HXMallViewController.m in Sources */,
+				041D479820C7CF7C004ED651 /* HXNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
