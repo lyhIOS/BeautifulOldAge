@@ -26,6 +26,8 @@
 #import "AFNetworking.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 
+#import "UIColor+HEX.h"
+
 #import "HXTabBarController.h"
 #import "HXNavigationController.h"
 #import "HXHotViewController.h"
