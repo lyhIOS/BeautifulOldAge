@@ -54,6 +54,7 @@
 		041D476620C7C7EB004ED651 /* BeautifulOldAgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulOldAgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041D476A20C7C7EB004ED651 /* BeautifulOldAgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulOldAgeUITests.m; sourceTree = "<group>"; };
 		041D476C20C7C7EB004ED651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041D479220C7CCDC004ED651 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1A8E429F425CC2407492F3C6 /* libPods-BeautifulOldAge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeautifulOldAge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAA7C0C732208F879412F5B /* Pods-BeautifulOldAgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulOldAgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeautifulOldAgeTests/Pods-BeautifulOldAgeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2ABA7D5F4619F3044206D172 /* Pods-BeautifulOldAgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulOldAgeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeautifulOldAgeTests/Pods-BeautifulOldAgeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 				041D475120C7C7EB004ED651 /* LaunchScreen.storyboard */,
 				041D475420C7C7EB004ED651 /* Info.plist */,
 				041D475520C7C7EB004ED651 /* main.m */,
+				041D479220C7CCDC004ED651 /* PrefixHeader.pch */,
 			);
 			path = BeautifulOldAge;
 			sourceTree = "<group>";
@@ -844,6 +846,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LD8KP7HQZC;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeautifulOldAge/PrefixHeader.pch;
 				INFOPLIST_FILE = BeautifulOldAge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -862,6 +866,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LD8KP7HQZC;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BeautifulOldAge/PrefixHeader.pch;
 				INFOPLIST_FILE = BeautifulOldAge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
