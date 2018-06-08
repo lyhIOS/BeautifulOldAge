@@ -24,6 +24,18 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+## AliPay
+
+支付宝(中国)网络技术有限公司  版权所有.
+
+## JCore
+
+Copyright jpush.cn
+
+## JPush
+
+Copyright jpush.cn
+
 ## MJRefresh
 
 Copyright (c) 2013-2015 MJRefresh (https://github.com/CoderMJLee/MJRefresh)
@@ -104,6 +116,11 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 A different license may apply to other resources included in this package, including Freepik Icons. Please consult their respective headers for the terms of their individual licenses.
+
+
+## WechatOpenSDK
+
+Copyright 2017 tencent.com. All rights reserved.
 
 
 ## YYModel

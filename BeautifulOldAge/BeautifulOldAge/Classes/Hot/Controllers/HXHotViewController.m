@@ -10,6 +10,7 @@
 
 #define RandColor [UIColor colorWithRed:(arc4random_uniform(256))/255.0 green:(arc4random_uniform(256))/255.0 blue:(arc4random_uniform(256))/255.0 alpha:(arc4random_uniform(256))/255.0]
 #define MaxLoadNum 13
+#define HotTableview @"HXHotTableview"
 
 @interface HXHotViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -29,6 +30,10 @@ static NSInteger tag = 0;
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.tableView];
     
+    // 设置导航栏右侧按钮
+    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"🔍" style:UIBarButtonItemStyleDone target:self action:@selector(clickBarButton)];
+    self.navigationItem.rightBarButtonItem = barButtonItem;
+    
     self.array = [NSMutableArray arrayWithArray:@[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"11",@"12",@"13"]];
     self.moreData = [NSMutableArray arrayWithArray:@[@"20",@"21",@"22",@"23",@"24",@"25",@"26",@"27",@"28",@"29",@"30",@"31",@"32",@"33",@"34",@"35",@"36"]];
 }
@@ -43,7 +48,7 @@ static NSInteger tag = 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:HotTableview forIndexPath:indexPath];
     if (!cell) {
         cell = [[UITableViewCell alloc]init];
     }
@@ -66,13 +71,12 @@ static NSInteger tag = 0;
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         NSInteger num = ((self.moreData.count - MaxLoadNum * tag) > MaxLoadNum * tag) ? MaxLoadNum : (self.moreData.count - MaxLoadNum * tag);
         // 判断数据是否加载完
-        if (self.moreData.count <= (MaxLoadNum * tag)) {
+        if (self.moreData.count <= MaxLoadNum * tag) {
             self.tableView.mj_footer.state = MJRefreshStateNoMoreData;
             return ;
         }
         // 给数据源加载新的数据
         for (int i = 0;i < num;i++) {
-            NSLog(@"%d",i);
             [self.array addObject:[self.moreData objectAtIndex:i + MaxLoadNum * tag]];
         }
         NSMutableArray *insertIndexPaths = [NSMutableArray arrayWithCapacity:MaxLoadNum];
@@ -81,24 +85,26 @@ static NSInteger tag = 0;
             [insertIndexPaths addObject:newPath];
         }
         tag ++;
-        
+        // 主线程插入数据
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.tableView insertRowsAtIndexPaths:insertIndexPaths withRowAnimation:UITableViewRowAnimationFade];
         });
     });
-    
-//    [self.tableView reloadData];
     // 结束尾部刷新
     [self.tableView.mj_footer endRefreshing];
-    
-    
+}
+
+// 点击导航栏右侧按钮
+- (void)clickBarButton {
+    HXSearchViewController *searchVC = [[HXSearchViewController alloc]init];
+    [self.navigationController pushViewController:searchVC animated:YES];
 }
 
 #pragma mark - 懒加载
 - (UITableView *)tableView {
     if (!_tableView) {
         _tableView = [[UITableView alloc]initWithFrame:kScreenBounds];
-        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:HotTableview];
         _tableView.delegate = self;
         _tableView.dataSource = self;
         

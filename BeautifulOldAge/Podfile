@@ -23,6 +23,10 @@ pod 'YYModel'
 pod 'MJRefresh'
 pod 'SVProgressHUD'
 pod 'Masonry'
+pod 'WechatOpenSDK'
+pod 'AliPay'
+pod 'JPush'
+
 
 
 

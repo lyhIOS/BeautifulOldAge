@@ -38,7 +38,10 @@
 
 #import "HXTabBarController.h"
 #import "HXNavigationController.h"
+
 #import "HXHotViewController.h"
+#import "HXSearchViewController.h"
+
 #import "HXServiceViewController.h"
 #import "HXMallViewController.h"
 #import "HXPersonalViewController.h"

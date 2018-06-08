@@ -24,6 +24,7 @@
 		041D47A720C7D55F004ED651 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D47A620C7D55F004ED651 /* UIColor+HEX.m */; };
 		041D47AC20C7D93E004ED651 /* UIImage+compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D47A920C7D93D004ED651 /* UIImage+compression.m */; };
 		041D47AD20C7D93E004ED651 /* LYHNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D47AA20C7D93E004ED651 /* LYHNetWorkTool.m */; };
+		04E4757520C9210400AE4BD8 /* HXSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4757420C9210400AE4BD8 /* HXSearchViewController.m */; };
 		65ED5D457EFA96795BC7AA92 /* libPods-BeautifulOldAgeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 353CF4F6813801513CD0E86E /* libPods-BeautifulOldAgeUITests.a */; };
 		A2B4AE0E6B04018C7C08113E /* libPods-BeautifulOldAge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8E429F425CC2407492F3C6 /* libPods-BeautifulOldAge.a */; };
 		F35A5A1A937A188141DAF1A0 /* libPods-BeautifulOldAgeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87798321932B909C56CDBCCC /* libPods-BeautifulOldAgeTests.a */; };
@@ -82,6 +83,8 @@
 		041D47A920C7D93D004ED651 /* UIImage+compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+compression.m"; sourceTree = "<group>"; };
 		041D47AA20C7D93E004ED651 /* LYHNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHNetWorkTool.m; sourceTree = "<group>"; };
 		041D47AB20C7D93E004ED651 /* UIImage+compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+compression.h"; sourceTree = "<group>"; };
+		04E4757320C9210400AE4BD8 /* HXSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSearchViewController.h; sourceTree = "<group>"; };
+		04E4757420C9210400AE4BD8 /* HXSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSearchViewController.m; sourceTree = "<group>"; };
 		1A8E429F425CC2407492F3C6 /* libPods-BeautifulOldAge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeautifulOldAge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAA7C0C732208F879412F5B /* Pods-BeautifulOldAgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulOldAgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeautifulOldAgeTests/Pods-BeautifulOldAgeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2ABA7D5F4619F3044206D172 /* Pods-BeautifulOldAgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulOldAgeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeautifulOldAgeTests/Pods-BeautifulOldAgeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -292,6 +295,8 @@
 			children = (
 				041D479920C7D039004ED651 /* HXHotViewController.h */,
 				041D479A20C7D039004ED651 /* HXHotViewController.m */,
+				04E4757320C9210400AE4BD8 /* HXSearchViewController.h */,
+				04E4757420C9210400AE4BD8 /* HXSearchViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -570,6 +575,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BeautifulOldAge/Pods-BeautifulOldAge-resources.sh",
+				"${PODS_ROOT}/AliPay/AlipaySDK.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
@@ -727,6 +733,7 @@
 				041D47AC20C7D93E004ED651 /* UIImage+compression.m in Sources */,
 				041D474820C7C7EA004ED651 /* AppDelegate.m in Sources */,
 				041D479520C7CF44004ED651 /* HXTabBarController.m in Sources */,
+				04E4757520C9210400AE4BD8 /* HXSearchViewController.m in Sources */,
 				041D47A120C7D063004ED651 /* HXMallViewController.m in Sources */,
 				041D479820C7CF7C004ED651 /* HXNavigationController.m in Sources */,
 				041D47A720C7D55F004ED651 /* UIColor+HEX.m in Sources */,
